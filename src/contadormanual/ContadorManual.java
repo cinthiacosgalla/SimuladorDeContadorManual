@@ -6,10 +6,10 @@ package contadormanual;
 
 /**
  *
- * @author Jorge
+ * @author cinthia
  */
 public class ContadorManual {
-    private int valor;
+    private int valor = 0;
     
     public ContadorManual() {
         valor = 0;
@@ -25,5 +25,9 @@ public class ContadorManual {
     
     public void reiniciarConteo() {
         valor = 0;
+    }
+
+    public void contadorManual() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
